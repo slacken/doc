@@ -14,17 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 文档笔记
-email: xinkiang@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  
+# email:
+description: 始于2019.7.20，记录文档/wiki/笔记
 baseurl: "/doc" # the subpath of your site, e.g. /blog
-url: "http://creatist.cn/doc/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username:  slacken
+url: "http://creatist.cn/doc/"
+author: eGlua2lhbmdAZ21haWwuY29t # Base64.encode64("xinkiang@gmail.com")
+# twitter_username: ""
+# github_username:  slacken
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
